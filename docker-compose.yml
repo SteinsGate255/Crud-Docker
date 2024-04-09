@@ -23,7 +23,7 @@ services:
       - 5432:5432
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: Steinsgate22*
+      POSTGRES_PASSWORD: test123*
       POSTGRES_DB: observations
     volumes:
       - pgdata:/var/lib/postgresql/data
