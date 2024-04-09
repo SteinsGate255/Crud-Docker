@@ -11,7 +11,7 @@ services:
     environment:
       - DATABASE_URL = jdbc:postgresql://localhost:5432/observations  
       - DATABASE_USERNAME = postgres
-      - DATABASE_PASSWORD = Steinsgate22*
+      - DATABASE_PASSWORD = test123*
     depends_on:
       - java_db  
 
